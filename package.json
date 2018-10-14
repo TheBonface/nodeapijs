@@ -1,0 +1,29 @@
+{
+  "name": "myapi_project",
+  "version": "1.0.0",
+  "description": "This is my first attempt to create a nodejs api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "this"
+  ],
+  "author": "thebonface",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts":{
+      "dev":"nodemon server.js"
+  }
+}
